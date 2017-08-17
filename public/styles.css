@@ -1,0 +1,118 @@
+*{
+    font-size: 0.99em;
+}
+
+body{
+    font-family: 'Archivo', sans-serif;
+    background-color: #db94ff;
+    color: white;
+}
+
+.container{
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.loginFormArea{
+    max-width: 360px;
+    margin: 40px auto;
+    transform: translateY(50%);
+    text-align: center;
+}
+
+#error{
+    display: block;
+    margin: 10px auto;
+}
+
+.messager{
+    display: none;
+}
+
+.disappear{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+h2{
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin: 50px auto;
+    color: #575ed8;
+}
+
+#chatBox, #online-users{
+    max-width: 500px;
+    margin: 20px auto;
+    border-radius: 2px;
+}
+
+#online-users{
+    min-width: 150px;
+    max-width: 200px;
+    border: 2px solid white;
+    margin: auto;
+    padding: 0 20px;
+
+}
+
+.users{
+    display: block;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#chat-window{
+    height: 300px;
+    background: #f9f9f9;
+    overflow: auto;
+}
+
+#output p{
+    padding:  0px 10px;
+    color: black;
+}
+
+#feedback p{
+    color: #aaa;
+    padding: 0px 10px;
+    margin: 0 20px;
+}
+
+#output strong{
+    color: #575ed8;
+}
+
+label{
+    box-sizing: border-box;
+    display: block;
+    padding: 10px 20px;
+}
+
+input{
+    padding: 10px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    background: #eee;
+    border: 0;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+}
+
+button{
+    background: #575ed8;
+    color: #fff;
+    border: 0;
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.7;
+}

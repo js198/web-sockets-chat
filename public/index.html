@@ -1,0 +1,38 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Websockets</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
+	<link href="/styles.css" rel="stylesheet"/>
+</head>
+<body>
+	<div class="container">
+		<div class="loginFormArea">
+			<h2>Web Sockets IO Chat</h2>
+			<div id="error"></div>
+			<form id="loginForm">
+				<input id="username" type="text" placeholder="Please enter your Name"/><br />
+				<button id="submit" type="submit">Login</button>
+			</form>
+		</div>
+	
+		<div class="messager">
+			<div id="online-users">
+				<h4>Online users</h4>
+				<ul class="users"></ul>
+			</div>
+			<div id="chatBox">
+				<div id="chat-window">
+					<div id="output"></div>
+					<div id="feedback"></div>
+				</div>
+				<label id="handle"></label>
+				<input id="message" type="text" placeholder="Type your message here..." />
+				<button id="send">Send</button>
+			</div>
+		</div>
+	</div>
+	<script src="/chat.js"></script>
+</body>
+</html>
